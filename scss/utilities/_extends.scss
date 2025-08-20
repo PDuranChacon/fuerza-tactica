@@ -1,0 +1,17 @@
+// EXTENDS REUTILIZABLES
+%titulo-base {
+  font-family: $fuentePrincipal;
+  color: $blanco;
+  text-align: center;
+}
+%enlace-base {
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+%caja-base {
+  border-radius: 10px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  background-color: $gris;
+}

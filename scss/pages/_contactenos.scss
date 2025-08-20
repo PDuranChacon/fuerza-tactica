@@ -1,0 +1,51 @@
+/* PAGINA CONTACTENOS */
+.formulario-contacto {
+  padding: 4rem 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacto h2 {
+  color: $primario;
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+}
+
+.formulario {
+  background-color: $gris;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.campo label {
+  color: $blanco;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.campo input,
+.campo textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-family: $fuenteSecundaria;
+}
+
+.campo input[type="submit"] {
+  background-color: $primario;
+  color: $negro;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.campo input[type="submit"]:hover {
+  background-color: #3ab16e;
+  }

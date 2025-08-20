@@ -1,0 +1,26 @@
+/* ESTILO HEADER*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: $gris;
+    text-align: center;
+     
+}
+.header__titulo {
+  font-size: 4.5rem;
+  color: $primario;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 2rem 0;
+}
+.header__logo {
+  max-width: 100%;
+  background-color: $primario;
+  width: 5rem;
+  height: 5rem;
+  padding: 0;
+  margin: 0;
+}
