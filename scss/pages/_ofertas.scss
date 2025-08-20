@@ -3,20 +3,39 @@
   padding: 4rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
-}
 
-.ofertas h2 {
+  h2 {
   color: $primario;
   font-size: 4rem;
   margin-bottom: 3rem;
   text-align: center;
 }
 
+}
+
+
+
 .oferta {
   border-left: 5px solid $primario;
   margin-bottom: 3rem;
   box-shadow: 0 0 10px rgba(75, 201, 130, 0.2);
-  @extend %caja-base
+  @extend %caja-base;
+
+  h3 {
+  font-size: 2.8rem;
+  color: $primario;
+  margin-bottom: 1rem;
+  }
+  p {
+  font-size: 1.6rem;
+  color: $blanco;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  }
+  strong {
+  color: $primario;
+  font-weight: 700;
+  }
 }
 
 .oferta:hover {
@@ -24,23 +43,11 @@
   box-shadow: 0 0 20px rgba(75, 201, 130, 0.4);
 }
 
-.oferta h3 {
-  font-size: 2.8rem;
-  color: $primario;
-  margin-bottom: 1rem;
-}
 
-.oferta p {
-  font-size: 1.6rem;
-  color: $blanco;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
 
-.oferta strong {
-  color: $primario;
-  font-weight: 700;
-}
+
+
+
 
 .oferta .urgente {
   color: $rojo;
